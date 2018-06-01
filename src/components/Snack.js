@@ -3,7 +3,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } fr
 import 'bootstrap/dist/css/bootstrap.css'
 
 const Snack = ({snack, handleCardShow}) => {
-  const { description, id, img, is_perishable, name, price } = snack
+  const { description, id, img, name, price } = snack
 
   const imgCropStyle = {
       height: '300px',

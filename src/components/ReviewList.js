@@ -17,7 +17,6 @@ const ReviewList = ({currReviews, handleEditReviewFormShow, handleDeleteReview})
 
     return (
       <div className='reviews-container'>
-        {console.log(handleEditReviewFormShow)}
         {Reviews}
       </div>
     )

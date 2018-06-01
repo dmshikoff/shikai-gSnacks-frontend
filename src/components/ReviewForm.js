@@ -3,7 +3,6 @@ import { Modal, Button } from 'react-bootstrap'
 import { withAuthentication } from "../helper";
 import '../style/ReviewForm.css'
 
-
 const ReviewForm = (props) => {
   return (
     <div>
