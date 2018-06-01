@@ -1,6 +1,6 @@
 import React from "react";
 import { Modal, Button } from 'react-bootstrap'
-import '../ReviewForm.css'
+import '../style/ReviewForm.css'
 
 const EditReviewForm = (props) => {
   return (
